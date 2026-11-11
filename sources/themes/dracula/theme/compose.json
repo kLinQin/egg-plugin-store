@@ -1,0 +1,21 @@
+{
+  "id": "dracula",
+  "name": "Dracula",
+  "base": "dark",
+  "dark": true,
+  "colors": {
+    "primary": "#BD93F9",
+    "onPrimary": "#282A36",
+    "background": "#282A36",
+    "onBackground": "#F8F8F2",
+    "surface": "#44475A",
+    "onSurface": "#F8F8F2",
+    "surfaceVariant": "#6272A4",
+    "onSurfaceVariant": "#F8F8F2",
+    "outline": "#6272A4",
+    "secondary": "#FF79C6",
+    "onSecondary": "#282A36",
+    "tertiary": "#50FA7B",
+    "onTertiary": "#282A36"
+  }
+}

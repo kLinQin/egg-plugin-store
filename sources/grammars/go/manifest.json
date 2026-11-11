@@ -1,0 +1,10 @@
+{
+  "id": "com.egg.plugin.go",
+  "name": "Go Grammar",
+  "mainClass": "com.egg.plugin.go.Main",
+  "version": "1.0.0",
+  "description": "Syntax highlighting for Go",
+  "author": {
+    "displayName": "Egg Team"
+  }
+}

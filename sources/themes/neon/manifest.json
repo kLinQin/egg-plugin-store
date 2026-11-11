@@ -1,0 +1,10 @@
+{
+  "id": "com.egg.plugin.neon",
+  "name": "Neon Theme",
+  "mainClass": "com.egg.plugin.neon.Main",
+  "version": "1.0.0",
+  "description": "Cyberpunk neon theme",
+  "author": {
+    "displayName": "Egg Team"
+  }
+}

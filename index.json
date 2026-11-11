@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "updated": "2026-11-11T06:46:52.137Z",
+  "plugins": [
+    {
+      "id": "com.egg.plugin.dracula",
+      "name": "Dracula Theme",
+      "description": "Dark theme with vibrant colors",
+      "version": "1.0.0",
+      "author": "Egg Team",
+      "type": "theme",
+      "url": "https://raw.githubusercontent.com/kLinQin/egg-plugin-store/main/plugins/theme-dracula.egg",
+      "size": 718,
+      "updated": "2026-11-11"
+    },
+    {
+      "id": "com.egg.plugin.neon",
+      "name": "Neon Theme",
+      "description": "Cyberpunk neon theme",
+      "version": "1.0.0",
+      "author": "Egg Team",
+      "type": "theme",
+      "url": "https://raw.githubusercontent.com/kLinQin/egg-plugin-store/main/plugins/theme-neon.egg",
+      "size": 704,
+      "updated": "2026-11-11"
+    },
+    {
+      "id": "com.egg.plugin.nord",
+      "name": "Nord Theme",
+      "description": "Arctic, north-bluish color palette",
+      "version": "1.0.0",
+      "author": "Egg Team",
+      "type": "theme",
+      "url": "https://raw.githubusercontent.com/kLinQin/egg-plugin-store/main/plugins/theme-nord.egg",
+      "size": 725,
+      "updated": "2026-11-11"
+    },
+    {
+      "id": "com.egg.plugin.ocean",
+      "name": "Ocean Theme",
+      "description": "Deep blue ocean color scheme",
+      "version": "1.0.0",
+      "author": "Egg Team",
+      "type": "theme",
+      "url": "https://raw.githubusercontent.com/kLinQin/egg-plugin-store/main/plugins/theme-ocean.egg",
+      "size": 708,
+      "updated": "2026-11-11"
+    },
+    {
+      "id": "com.egg.plugin.tokyo-night",
+      "name": "Tokyo Night Theme",
+      "description": "Clean, dark theme inspired by Tokyo",
+      "version": "1.0.0",
+      "author": "Egg Team",
+      "type": "theme",
+      "url": "https://raw.githubusercontent.com/kLinQin/egg-plugin-store/main/plugins/theme-tokyo-night.egg",
+      "size": 736,
+      "updated": "2026-11-11"
+    },
+    {
+      "id": "com.egg.plugin.go",
+      "name": "Go Grammar",
+      "description": "Syntax highlighting for Go",
+      "version": "1.0.0",
+      "author": "Egg Team",
+      "type": "grammar",
+      "url": "https://raw.githubusercontent.com/kLinQin/egg-plugin-store/main/plugins/grammar-go.egg",
+      "size": 8685,
+      "updated": "2026-11-11"
+    },
+    {
+      "id": "com.egg.plugin.rust",
+      "name": "Rust Grammar",
+      "description": "Syntax highlighting for Rust",
+      "version": "1.0.0",
+      "author": "Egg Team",
+      "type": "grammar",
+      "url": "https://raw.githubusercontent.com/kLinQin/egg-plugin-store/main/plugins/grammar-rust.egg",
+      "size": 4866,
+      "updated": "2026-11-11"
+    },
+    {
+      "id": "com.egg.plugin.typescript",
+      "name": "TypeScript Grammar",
+      "description": "Syntax highlighting for TypeScript",
+      "version": "1.0.0",
+      "author": "Egg Team",
+      "type": "grammar",
+      "url": "https://raw.githubusercontent.com/kLinQin/egg-plugin-store/main/plugins/grammar-typescript.egg",
+      "size": 20077,
+      "updated": "2026-11-11"
+    }
+  ]
+}

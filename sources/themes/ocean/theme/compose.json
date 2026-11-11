@@ -1,0 +1,21 @@
+{
+  "id": "ocean",
+  "name": "Ocean",
+  "base": "dark",
+  "dark": true,
+  "colors": {
+    "primary": "#00BFFF",
+    "onPrimary": "#000000",
+    "background": "#001220",
+    "onBackground": "#B0E0FF",
+    "surface": "#001A2C",
+    "onSurface": "#B0E0FF",
+    "surfaceVariant": "#002A40",
+    "onSurfaceVariant": "#80C0E0",
+    "outline": "#005080",
+    "secondary": "#00AAFF",
+    "onSecondary": "#000000",
+    "tertiary": "#00FFCC",
+    "onTertiary": "#000000"
+  }
+}

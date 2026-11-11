@@ -1,0 +1,10 @@
+{
+  "id": "com.egg.plugin.tokyo-night",
+  "name": "Tokyo Night Theme",
+  "mainClass": "com.egg.plugin.tokyo-night.Main",
+  "version": "1.0.0",
+  "description": "Clean, dark theme inspired by Tokyo",
+  "author": {
+    "displayName": "Egg Team"
+  }
+}

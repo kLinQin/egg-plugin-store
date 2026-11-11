@@ -1,0 +1,10 @@
+{
+  "id": "com.egg.plugin.nord",
+  "name": "Nord Theme",
+  "mainClass": "com.egg.plugin.nord.Main",
+  "version": "1.0.0",
+  "description": "Arctic, north-bluish color palette",
+  "author": {
+    "displayName": "Egg Team"
+  }
+}

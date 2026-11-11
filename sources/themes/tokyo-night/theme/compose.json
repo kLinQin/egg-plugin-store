@@ -1,0 +1,21 @@
+{
+  "id": "tokyo-night",
+  "name": "Tokyo Night",
+  "base": "dark",
+  "dark": true,
+  "colors": {
+    "primary": "#7AA2F7",
+    "onPrimary": "#1A1B26",
+    "background": "#1A1B26",
+    "onBackground": "#C0CAF5",
+    "surface": "#24283B",
+    "onSurface": "#C0CAF5",
+    "surfaceVariant": "#414868",
+    "onSurfaceVariant": "#9AA5CE",
+    "outline": "#414868",
+    "secondary": "#BB9AF7",
+    "onSecondary": "#1A1B26",
+    "tertiary": "#7DCFFF",
+    "onTertiary": "#1A1B26"
+  }
+}

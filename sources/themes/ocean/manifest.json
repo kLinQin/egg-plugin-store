@@ -1,0 +1,10 @@
+{
+  "id": "com.egg.plugin.ocean",
+  "name": "Ocean Theme",
+  "mainClass": "com.egg.plugin.ocean.Main",
+  "version": "1.0.0",
+  "description": "Deep blue ocean color scheme",
+  "author": {
+    "displayName": "Egg Team"
+  }
+}

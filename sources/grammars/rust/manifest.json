@@ -1,0 +1,10 @@
+{
+  "id": "com.egg.plugin.rust",
+  "name": "Rust Grammar",
+  "mainClass": "com.egg.plugin.rust.Main",
+  "version": "1.0.0",
+  "description": "Syntax highlighting for Rust",
+  "author": {
+    "displayName": "Egg Team"
+  }
+}

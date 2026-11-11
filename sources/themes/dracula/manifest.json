@@ -1,0 +1,10 @@
+{
+  "id": "com.egg.plugin.dracula",
+  "name": "Dracula Theme",
+  "mainClass": "com.egg.plugin.dracula.Main",
+  "version": "1.0.0",
+  "description": "Dark theme with vibrant colors",
+  "author": {
+    "displayName": "Egg Team"
+  }
+}
