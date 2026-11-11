@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-11T06:46:52.137Z",
+  "updated": "2026-11-11T07:15:15.297Z",
   "plugins": [
     {
       "id": "com.egg.plugin.dracula",
@@ -10,7 +10,7 @@
       "author": "Egg Team",
       "type": "theme",
       "url": "https://raw.githubusercontent.com/kLinQin/egg-plugin-store/main/plugins/theme-dracula.egg",
-      "size": 718,
+      "size": 5028,
       "updated": "2026-11-11"
     },
     {
@@ -32,7 +32,7 @@
       "author": "Egg Team",
       "type": "theme",
       "url": "https://raw.githubusercontent.com/kLinQin/egg-plugin-store/main/plugins/theme-nord.egg",
-      "size": 725,
+      "size": 5434,
       "updated": "2026-11-11"
     },
     {
@@ -54,7 +54,7 @@
       "author": "Egg Team",
       "type": "theme",
       "url": "https://raw.githubusercontent.com/kLinQin/egg-plugin-store/main/plugins/theme-tokyo-night.egg",
-      "size": 736,
+      "size": 7348,
       "updated": "2026-11-11"
     },
     {

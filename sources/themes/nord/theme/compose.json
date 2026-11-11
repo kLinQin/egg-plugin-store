@@ -17,5 +17,6 @@
     "onSecondary": "#2E3440",
     "tertiary": "#B48EAD",
     "onTertiary": "#2E3440"
-  }
+  },
+  "syntaxPath": "syntax.tmTheme.json"
 }
