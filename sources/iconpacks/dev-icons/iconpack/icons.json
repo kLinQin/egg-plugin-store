@@ -1,0 +1,68 @@
+{
+  "name": "Dev Icons",
+  "icons": {
+    ".rs": {
+      "color": "#DEA584"
+    },
+    ".go": {
+      "color": "#00ADD8"
+    },
+    ".swift": {
+      "color": "#FA7343"
+    },
+    ".sh": {
+      "color": "#4EAA25"
+    },
+    ".bash": {
+      "color": "#4EAA25"
+    },
+    ".zsh": {
+      "color": "#4EAA25"
+    },
+    ".yml": {
+      "color": "#CB171E"
+    },
+    ".yaml": {
+      "color": "#CB171E"
+    },
+    ".toml": {
+      "color": "#9C4221"
+    },
+    ".rb": {
+      "color": "#CC342D"
+    },
+    ".dart": {
+      "color": "#0175C2"
+    },
+    ".lua": {
+      "color": "#000080"
+    },
+    ".r": {
+      "color": "#276DC3"
+    },
+    ".cs": {
+      "color": "#178600"
+    },
+    ".cpp": {
+      "color": "#00599C"
+    },
+    ".c": {
+      "color": "#555555"
+    },
+    ".h": {
+      "color": "#555555"
+    },
+    ".hpp": {
+      "color": "#00599C"
+    },
+    ".dockerfile": {
+      "color": "#2496ED"
+    },
+    ".vue": {
+      "color": "#41B883"
+    },
+    ".svelte": {
+      "color": "#FF3E00"
+    }
+  }
+}

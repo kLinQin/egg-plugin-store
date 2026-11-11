@@ -17,5 +17,12 @@ for /d %%D in (sources\grammars\*) do (
     popd
 )
 
+for /d %%D in (sources\iconpacks\*) do (
+    echo building iconpack: %%~nxD
+    pushd "%%D"
+    jar -cMf "..\..\plugins\iconpack-%%~nxD.egg" .
+    popd
+)
+
 node build-index.js
 echo Done.

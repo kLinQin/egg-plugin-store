@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-11T07:15:15.297Z",
+  "updated": "2026-11-11T07:53:17.565Z",
   "plugins": [
     {
       "id": "com.egg.plugin.dracula",
@@ -88,6 +88,17 @@
       "type": "grammar",
       "url": "https://raw.githubusercontent.com/kLinQin/egg-plugin-store/main/plugins/grammar-typescript.egg",
       "size": 20077,
+      "updated": "2026-11-11"
+    },
+    {
+      "id": "com.egg.plugin.devicons",
+      "name": "Dev Icons",
+      "description": "Colorful icons for popular languages (Rust, Go, Swift, etc.)",
+      "version": "1.0.0",
+      "author": "Egg Team",
+      "type": "iconpack",
+      "url": "https://raw.githubusercontent.com/kLinQin/egg-plugin-store/main/plugins/iconpack-dev-icons.egg",
+      "size": 793,
       "updated": "2026-11-11"
     }
   ]

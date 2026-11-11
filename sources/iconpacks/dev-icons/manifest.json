@@ -1,0 +1,10 @@
+{
+  "id": "com.egg.plugin.devicons",
+  "name": "Dev Icons",
+  "mainClass": "x.Main",
+  "version": "1.0.0",
+  "description": "Colorful icons for popular languages (Rust, Go, Swift, etc.)",
+  "author": {
+    "displayName": "Egg Team"
+  }
+}

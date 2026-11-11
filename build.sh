@@ -30,6 +30,15 @@ for src in sources/grammars/*/; do
   echo "built: grammar-$id.egg"
 done
 
+# Icon packs
+for src in sources/iconpacks/*/; do
+  [ -d "$src" ] || continue
+  id=$(basename "$src")
+  rm -f "plugins/iconpack-$id.egg"
+  (cd "$src" && jar -cMf "../../../plugins/iconpack-$id.egg" .)
+  echo "built: iconpack-$id.egg"
+done
+
 # Regenerate index.json via node (or python)
 node -e '
 const fs = require("fs");
@@ -38,7 +47,7 @@ const base = "sources";
 const plugins = [];
 const raw = "https://raw.githubusercontent.com/kLinQin/egg-plugin-store/main";
 
-for (const type of ["themes", "grammars"]) {
+for (const type of ["themes", "grammars", "iconpacks"]) {
   const dir = path.join(base, type);
   if (!fs.existsSync(dir)) continue;
   for (const id of fs.readdirSync(dir)) {
@@ -46,7 +55,7 @@ for (const type of ["themes", "grammars"]) {
     const manifestPath = path.join(src, "manifest.json");
     if (!fs.existsSync(manifestPath)) continue;
     const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf-8"));
-    const eggName = (type === "themes" ? "theme-" : "grammar-") + id + ".egg";
+    const eggName = (type === "themes" ? "theme-" : type === "grammars" ? "grammar-" : "iconpack-") + id + ".egg";
     const eggPath = path.join("plugins", eggName);
     if (!fs.existsSync(eggPath)) continue;
     const size = fs.statSync(eggPath).size;
@@ -56,7 +65,7 @@ for (const type of ["themes", "grammars"]) {
       description: manifest.description || "",
       version: manifest.version || "1.0.0",
       author: manifest.author?.displayName || "Unknown",
-      type: type === "themes" ? "theme" : "grammar",
+      type: type === "themes" ? "theme" : type === "grammars" ? "grammar" : "iconpack",
       url: raw + "/plugins/" + eggName,
       size,
       updated: new Date().toISOString().slice(0, 10)
